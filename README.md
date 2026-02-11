@@ -9,7 +9,7 @@ Core Project:
 
 Setup
 
-1. Create a virtual environment (recommended):
+1. Create a virtual environment:
 
 ```powershell
 python -m venv venv
@@ -34,10 +34,7 @@ Run
 python main.py
 ```
 
-Notes
-- If you want to publish a lightweight public repo, keep only the core files listed above and this `README.md`.
-- If you accidentally committed dataset or cache files already, remove them with the commands shown below in this README.
-
 License
 
 This repository uses the MIT license (see `LICENSE`).
+
