@@ -73,7 +73,6 @@ print(user_profile) # Shows the user's preferences for each genre (0.0 to 1.0)
 recommendations = recommend_movies(user_profile, movies, movie_vectors, top_n=10)
 print(f"\nTop 10 Recommendations for User {user_id}:")
 for title, score in recommendations:
-    # f"..." is an f-string (formatted string literal) - lets you embed {expressions}
-    # .4f means "float with 4 decimal places" - e.g., 3.14159 → 3.1416
     print(f"{title}: score={score:.4f}")
+
 
